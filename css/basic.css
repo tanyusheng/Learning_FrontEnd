@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 1200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.nav {
+    width: 1200px;
+    height: 200px;
+    background-color: darkred;
+    margin: auto;
+}
+.big_img {
+    width: 1200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    margin: auto;
+}
+.content {
+    width: 1200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: auto;
+}
+.footer {
+    width: 1200px;
+    height: 200px;
+    background-color: darkcyan;
+    margin: auto;
+}

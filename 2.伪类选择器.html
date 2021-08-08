@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+</head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .div01{
+            width: 150px;
+            height: 50px;
+            margin: auto;
+            line-height: 50px;
+            font-size: 30ox;
+            background-color: bisque;
+            text-align: center;
+        }
+
+        .div01:hover {
+            color: chocolate;
+            font-weight: bold;
+            background-color: navy;
+        }
+
+        .table {
+            border: 1px solid;
+        }
+        .table>tbody>tr:first-child{
+            color: red;
+        }
+        .table>tbody>tr:last-child{
+            color: green;
+        }
+        .table>tbody>tr:nth-child(odd){
+            background-color: olivedrab;
+        }
+        .table>tbody>tr:nth-child(even){
+            background-color: orchid;
+        }
+    </style>
+</head>
+<body>
+    <table class="table" border="2px">
+        <thead>
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>95001</td>
+                <td>张三</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>95001</td>
+                <td>zhansan</td>    
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>95001</td>
+                <td>zhansan</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>95001</td>
+                <td>zhansan</td>
+                <td>19</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    <div class="div01">
+        伪类选择器
+    </div>
+</body>
+</html>

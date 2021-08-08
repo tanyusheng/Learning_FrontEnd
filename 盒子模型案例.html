@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .course{
+            width: 1200px;
+            height: 190px;
+            background-color: paleturquoise;
+            margin: auto;
+        }
+        .course>.item{
+            float: left;
+            margin-right: 20px;
+        }
+        .course>.item:last-child{
+            margin-right: 0px;
+        }
+
+        .course>.item>.img{
+            width: 285px;
+            height: 160px;
+        }
+
+        .course>.item>.title{
+            width: 285px;
+            height: 30px;
+            font-weight: bolder;
+            background-color: gray;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            
+        }
+        .course>.item>.title:hover{
+            background-color: lavender;
+            color: black;
+            border: yellow 2px solid;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="course">
+        <div class="item">
+            <div class="img">
+                <img src="img/course1.png" alt="">
+            </div>
+            <div class="title">
+                Photoshop教程
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="img/course2.png" alt="">
+            </div>
+            <div class="title">
+                Ae从入门到精通
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="img/course1.png" alt="">
+            </div>
+            <div class="title">
+                Photoshop教程
+            </div>
+        </div>
+        <div class="item">
+            <div class="img">
+                <img src="img/course2.png" alt="">
+            </div>
+            <div class="title">
+                Photoshop教程
+            </div>
+        </div>
+    </div>
+</body>
+</html>

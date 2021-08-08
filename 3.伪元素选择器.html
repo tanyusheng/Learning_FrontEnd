@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+</head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .div01{
+            width: 500px;
+            height: 200px;
+            background-color: lightblue;
+            margin: auto;
+            text-align: center;
+        }
+        .div01::first-letter{
+            color: royalblue;
+            font-size: 20px;
+        }
+
+        .div02>ul>li{
+            list-style-type: none;
+        }
+
+        .div02>ul>li::before{
+            content: "【";
+            color: salmon;
+        }
+        .div02>ul>li::after{
+            content: "】";
+            color:salmon;
+        }
+        .div02>ul>li:hover{
+            font-size: 18px;
+            color: red;
+            font-size: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="div01">
+        学习css，啊哈圣诞节快乐就阿尔德生科技发口斯顿发生的借款方<br>
+        阿诗丹顿就发了可视角度as迪欧金时掉进覅文阿善动给偶发较轻微<br>
+        大家阿瑟if解耦气温爱配色求安慰地方卷发是大佛爱【色of认识的<br>
+    </div>
+
+    <div class="div02">
+        <ul>
+            <li>北京：中国的首都</li>
+            <li>上海:中国的经济中心</li>
+            <li>广州:中国的商贸中心</li>
+        </ul>
+    </div>
+
+</body>
+</html>
